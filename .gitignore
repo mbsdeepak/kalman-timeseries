@@ -19,3 +19,12 @@ env/
 
 # Notebooks
 .ipynb_checkpoints/
+
+# LaTeX build artifacts (keep the .tex and the final .pdf)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk

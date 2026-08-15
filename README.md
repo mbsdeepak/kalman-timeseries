@@ -14,6 +14,10 @@ This repo ships **two** filters, tagged so you can diff them:
 
 Jump to [**What's new in v0.2.0**](#whats-new-in-v020--the-adaptive-robust-filter) for the head-to-head.
 
+📄 A short **academic write-up** of the method — background, the derivations, the
+algorithm, and the experiments — is in [`paper/kalman_improvements.pdf`](paper/kalman_improvements.pdf)
+(source: [`paper/kalman_improvements.tex`](paper/kalman_improvements.tex), builds with `tectonic`).
+
 ![Kalman filtering of a noisy temperature series](assets/denoise.png)
 
 On the clean synthetic benchmark (sensor noise σ = 2.5 °C), the baseline filter
