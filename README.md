@@ -1,5 +1,10 @@
 # Kalman Time Series
 
+[![CI](https://github.com/mbsdeepak/kalman-timeseries/actions/workflows/ci.yml/badge.svg)](https://github.com/mbsdeepak/kalman-timeseries/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%E2%80%933.13-blue.svg)](pyproject.toml)
+[![Changelog](https://img.shields.io/badge/changelog-keep%20a%20changelog-orange.svg)](CHANGELOG.md)
+
 Denoise and forecast a noisy 1-D time series with a **Kalman filter**, written
 from scratch in NumPy — no `filterpy`, no `statsmodels`, no black boxes. The
 worked example takes a year of noisy daily temperature readings and recovers
